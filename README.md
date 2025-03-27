@@ -48,6 +48,11 @@ RFP-Response Analyzer is a Flask-based web application that uses AI to analyze a
     ```bash
     python main.py
     ```
+6. If you get any errors as missing packages or dependencies just pip install 'package'
+   or
+   ```
+   pip install --upgrade langchain langchain-openai pydantic
+   ```
 
 ## Usage
 
