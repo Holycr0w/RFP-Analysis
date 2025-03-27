@@ -1,6 +1,6 @@
 # RFP-Response Analysis
 
-RFP-Response Analyzer is a Flask-based web application that uses AI to analyze and compare Request for Proposal (RFP) documents with their corresponding responses. It leverages OpenAI's language models and vector embeddings to provide insights, gap analysis, and interactive chat functionality.
+
 
 
 ## Features
