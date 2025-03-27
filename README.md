@@ -18,24 +18,32 @@ RFP-Response Analyzer is a Flask-based web application that uses AI to analyze a
   git clone https://github.com/Holycr0w/RFP-Analysis.git
   cd RFP-Analysis
 ```
-
-
-2. Install dependencies:
+2. Create a Virtual Environment:
+```
+   python -m venv venv
+   venv\Scripts\activate
+```
+  
+3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Set up environment variables:
+4. Set up environment variables:
 
-    Create a `.env` file in the project root and add the following:
+    Edit/Create the `.env` file in the project root and add the following:
 
     ```bash
     OPENAI_API_KEY=your_openai_api_key
     LLAMA_CLOUD_API_KEY=your_llama_cloud_api_key
     ```
+    If you want to create a `.env` file enter the following code in CMD
+   ```
+   type nul > .env
+   ```
 
-4. Run the application:
+5. Run the application:
 
     ```bash
     python main.py
