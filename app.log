@@ -1,0 +1,299 @@
+2025-04-03 14:04:39,444 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:04:40,781 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ae9410ea-7202-4e44-b623-b624e26982fb "HTTP/1.1 200 OK"
+2025-04-03 14:04:43,125 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ae9410ea-7202-4e44-b623-b624e26982fb "HTTP/1.1 200 OK"
+2025-04-03 14:04:46,638 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ae9410ea-7202-4e44-b623-b624e26982fb "HTTP/1.1 200 OK"
+2025-04-03 14:04:47,114 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ae9410ea-7202-4e44-b623-b624e26982fb/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:04:48,910 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:04:49,427 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:04:50,604 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:04:50,633 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:04:50,640 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:04:51,060 - [-] - __main__ - ERROR - Error creating FAISS index for collection response_parsed: list index out of range
+2025-04-03 14:04:51,060 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: Failed to create FAISS index: list index out of range
+2025-04-03 14:04:51,060 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: list index out of range
+2025-04-03 14:06:15,469 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:06:23,514 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:06:24,851 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b386509c-979c-4237-94c6-3a90836300bf "HTTP/1.1 200 OK"
+2025-04-03 14:06:27,190 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b386509c-979c-4237-94c6-3a90836300bf "HTTP/1.1 200 OK"
+2025-04-03 14:06:30,517 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b386509c-979c-4237-94c6-3a90836300bf "HTTP/1.1 200 OK"
+2025-04-03 14:06:31,051 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b386509c-979c-4237-94c6-3a90836300bf/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:06:32,213 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:06:32,663 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:06:33,074 - [-] - __main__ - ERROR - Error creating FAISS index for collection response_parsed: list index out of range
+2025-04-03 14:06:33,090 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: Failed to create FAISS index: list index out of range
+2025-04-03 14:06:33,090 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: list index out of range
+2025-04-03 14:07:06,492 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:07:09,577 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:07:10,905 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e1328c05-7611-4b60-8ce9-ae16e4ea47b0 "HTTP/1.1 200 OK"
+2025-04-03 14:07:13,233 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e1328c05-7611-4b60-8ce9-ae16e4ea47b0 "HTTP/1.1 200 OK"
+2025-04-03 14:07:16,578 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e1328c05-7611-4b60-8ce9-ae16e4ea47b0 "HTTP/1.1 200 OK"
+2025-04-03 14:07:17,034 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e1328c05-7611-4b60-8ce9-ae16e4ea47b0/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:07:18,946 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:07:19,451 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:07:19,473 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:07:19,478 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:07:19,481 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:07:19,906 - [-] - __main__ - ERROR - Error creating FAISS index for collection response_parsed: list index out of range
+2025-04-03 14:07:19,906 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: Failed to create FAISS index: list index out of range
+2025-04-03 14:07:19,906 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: list index out of range
+2025-04-03 14:08:40,484 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:08:44,156 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:08:45,463 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4f3038db-b4c9-4378-b9ac-efdb1ef563e0 "HTTP/1.1 200 OK"
+2025-04-03 14:08:47,797 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4f3038db-b4c9-4378-b9ac-efdb1ef563e0 "HTTP/1.1 200 OK"
+2025-04-03 14:08:51,124 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4f3038db-b4c9-4378-b9ac-efdb1ef563e0 "HTTP/1.1 200 OK"
+2025-04-03 14:08:51,551 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4f3038db-b4c9-4378-b9ac-efdb1ef563e0/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:08:53,151 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:08:53,637 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:08:53,663 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:08:53,670 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:08:53,676 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:08:54,090 - [-] - __main__ - ERROR - Error creating FAISS index for collection response_parsed: list index out of range
+2025-04-03 14:08:54,090 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: Failed to create FAISS index: list index out of range
+2025-04-03 14:08:54,106 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: list index out of range
+2025-04-03 14:13:12,850 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:13:14,361 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:13:14,986 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:13:15,001 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:13:15,017 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:13:15,017 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:13:15,032 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:13:16,251 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:13:17,001 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:13:17,001 - [-] - __main__ - INFO - Created new FAISS index for collection: response_parsed
+2025-04-03 14:13:32,071 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:13:34,189 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:13:37,766 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:13:47,841 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:14:11,347 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:14:12,651 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:14:13,265 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:14:13,280 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:14:13,296 - [-] - __main__ - INFO - Cleared FAISS index for collection: response_parsed
+2025-04-03 14:14:14,069 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:14:14,975 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:14:14,975 - [-] - __main__ - INFO - Created new FAISS index for collection: response_parsed
+2025-04-03 14:14:58,876 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:14:59,904 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:15:00,501 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:15:00,516 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:15:00,532 - [-] - __main__ - INFO - Cleared FAISS index for collection: response_parsed
+2025-04-03 14:15:01,422 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:15:01,766 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:15:01,779 - [-] - __main__ - INFO - Created new FAISS index for collection: response_parsed
+2025-04-03 14:15:17,608 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:15:18,025 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:15:20,768 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:15:32,529 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:16:58,896 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:17:01,761 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:17:03,105 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ad65a379-fcc5-4963-8545-a75aaa769437 "HTTP/1.1 200 OK"
+2025-04-03 14:17:05,446 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ad65a379-fcc5-4963-8545-a75aaa769437 "HTTP/1.1 200 OK"
+2025-04-03 14:17:08,900 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ad65a379-fcc5-4963-8545-a75aaa769437 "HTTP/1.1 200 OK"
+2025-04-03 14:17:09,324 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/ad65a379-fcc5-4963-8545-a75aaa769437/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:17:11,129 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:17:11,631 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:17:11,651 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:17:11,652 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:17:11,662 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:17:11,666 - [-] - __main__ - INFO - Cleared FAISS index for collection: response_parsed
+2025-04-03 14:17:12,147 - [-] - __main__ - ERROR - Error creating FAISS index for collection response_parsed: list index out of range
+2025-04-03 14:17:12,147 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: Failed to create FAISS index: list index out of range
+2025-04-03 14:17:12,147 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: list index out of range
+2025-04-03 14:23:16,819 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:23:19,366 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:23:20,703 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dcf95e77-ff38-426f-a1fb-9e5a1bc3763c "HTTP/1.1 200 OK"
+2025-04-03 14:23:23,075 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dcf95e77-ff38-426f-a1fb-9e5a1bc3763c "HTTP/1.1 200 OK"
+2025-04-03 14:23:26,453 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dcf95e77-ff38-426f-a1fb-9e5a1bc3763c "HTTP/1.1 200 OK"
+2025-04-03 14:23:26,893 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dcf95e77-ff38-426f-a1fb-9e5a1bc3763c/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:23:28,349 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:23:28,822 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:23:29,319 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:23:29,341 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:23:29,351 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:23:29,354 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:23:29,370 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: LlamaParse returned no results
+2025-04-03 14:23:29,374 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: LlamaParse returned no results
+2025-04-03 14:24:20,928 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:24:24,933 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:24:26,263 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/05cbfeac-caf7-4960-93fe-1a4cf0a60b3f "HTTP/1.1 200 OK"
+2025-04-03 14:24:28,580 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/05cbfeac-caf7-4960-93fe-1a4cf0a60b3f "HTTP/1.1 200 OK"
+2025-04-03 14:24:31,916 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/05cbfeac-caf7-4960-93fe-1a4cf0a60b3f "HTTP/1.1 200 OK"
+2025-04-03 14:24:32,401 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/05cbfeac-caf7-4960-93fe-1a4cf0a60b3f/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:24:33,651 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:24:34,135 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:24:34,150 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:24:34,171 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:24:34,176 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:24:34,605 - [-] - __main__ - ERROR - Error creating FAISS index for collection response_parsed: list index out of range
+2025-04-03 14:24:34,605 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: Failed to create FAISS index: list index out of range
+2025-04-03 14:24:34,605 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: Failed to create FAISS index: list index out of range
+2025-04-03 14:28:54,903 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:28:58,757 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:29:00,079 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd40116e-2225-41e4-b88c-b9bc326bf559 "HTTP/1.1 200 OK"
+2025-04-03 14:29:02,393 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd40116e-2225-41e4-b88c-b9bc326bf559 "HTTP/1.1 200 OK"
+2025-04-03 14:29:05,712 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd40116e-2225-41e4-b88c-b9bc326bf559 "HTTP/1.1 200 OK"
+2025-04-03 14:29:06,169 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd40116e-2225-41e4-b88c-b9bc326bf559/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:29:06,169 - [-] - __main__ - ERROR - Error parsing temp_rfp.pdf: An asyncio.Future, a coroutine or an awaitable is required
+2025-04-03 14:29:06,185 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: An asyncio.Future, a coroutine or an awaitable is required
+2025-04-03 14:31:23,666 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:31:25,040 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/7d99740b-f0b7-4eb6-84c6-20940c872e2b "HTTP/1.1 200 OK"
+2025-04-03 14:31:27,353 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/7d99740b-f0b7-4eb6-84c6-20940c872e2b "HTTP/1.1 200 OK"
+2025-04-03 14:31:30,694 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/7d99740b-f0b7-4eb6-84c6-20940c872e2b "HTTP/1.1 200 OK"
+2025-04-03 14:31:31,196 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/7d99740b-f0b7-4eb6-84c6-20940c872e2b/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:31:32,674 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:31:33,173 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:31:33,195 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:31:33,202 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:31:33,205 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:31:33,211 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: No content extracted from PDF.
+2025-04-03 14:31:33,224 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: No content extracted from PDF.
+2025-04-03 14:34:35,155 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:34:37,896 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:34:39,317 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/55f76b10-82a0-4552-b408-c861226e82fd "HTTP/1.1 200 OK"
+2025-04-03 14:34:41,723 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/55f76b10-82a0-4552-b408-c861226e82fd "HTTP/1.1 200 OK"
+2025-04-03 14:34:45,078 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/55f76b10-82a0-4552-b408-c861226e82fd "HTTP/1.1 200 OK"
+2025-04-03 14:34:45,600 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/55f76b10-82a0-4552-b408-c861226e82fd/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:34:47,672 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:34:48,138 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:34:48,157 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:34:48,165 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:34:48,170 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:34:48,184 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: No content parsed from PDF
+2025-04-03 14:34:48,191 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: No content parsed from PDF
+2025-04-03 14:35:57,224 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:36:00,163 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:36:01,481 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/49e4c4ce-d3ab-47dc-99af-fd2d4b4a77ef "HTTP/1.1 200 OK"
+2025-04-03 14:36:03,789 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/49e4c4ce-d3ab-47dc-99af-fd2d4b4a77ef "HTTP/1.1 200 OK"
+2025-04-03 14:36:07,169 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/49e4c4ce-d3ab-47dc-99af-fd2d4b4a77ef "HTTP/1.1 200 OK"
+2025-04-03 14:36:11,554 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/49e4c4ce-d3ab-47dc-99af-fd2d4b4a77ef "HTTP/1.1 200 OK"
+2025-04-03 14:36:12,010 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/49e4c4ce-d3ab-47dc-99af-fd2d4b4a77ef/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:36:13,016 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:36:13,262 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:36:13,283 - [-] - __main__ - ERROR - Error parsing temp_response.pdf: No content parsed from PDF
+2025-04-03 14:36:13,287 - [-] - __main__ - ERROR - Error processing documents: Failed to parse PDF: No content parsed from PDF
+2025-04-03 14:42:58,584 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:43:01,025 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:43:02,364 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/f8a8547f-81ae-4b5d-a91d-f4eba3edc42b "HTTP/1.1 200 OK"
+2025-04-03 14:43:04,690 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/f8a8547f-81ae-4b5d-a91d-f4eba3edc42b "HTTP/1.1 200 OK"
+2025-04-03 14:43:05,190 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/f8a8547f-81ae-4b5d-a91d-f4eba3edc42b/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:43:06,518 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:43:06,767 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:43:06,783 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:43:06,783 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:43:06,783 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:43:06,895 - [-] - __main__ - ERROR - Error while parsing the file 'temp_response_77e5c725-e6ea-49a0-b43c-73cf37d5f283.pdf': No content extracted from temp_response_77e5c725-e6ea-49a0-b43c-73cf37d5f283.pdf
+2025-04-03 14:43:06,909 - [-] - __main__ - ERROR - Error parsing temp_response_77e5c725-e6ea-49a0-b43c-73cf37d5f283.pdf: Error parsing PDF: No content extracted from temp_response_77e5c725-e6ea-49a0-b43c-73cf37d5f283.pdf
+2025-04-03 14:43:06,962 - [-] - __main__ - ERROR - Document processing error: Failed to parse PDF: Error parsing PDF: No content extracted from temp_response_77e5c725-e6ea-49a0-b43c-73cf37d5f283.pdf
+2025-04-03 14:48:55,539 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:48:55,568 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:48:55,573 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:49:26,761 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:49:26,761 - [-] - __main__ - INFO - Attempting to parse temp_rfp_b5b30a41-8055-44e2-a363-e1c3d6868106.pdf with LlamaParse
+2025-04-03 14:49:30,463 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:49:31,864 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e3b44ebc-7cbc-4238-a5e4-f6d446c90441 "HTTP/1.1 200 OK"
+2025-04-03 14:49:34,194 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e3b44ebc-7cbc-4238-a5e4-f6d446c90441 "HTTP/1.1 200 OK"
+2025-04-03 14:49:34,624 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/e3b44ebc-7cbc-4238-a5e4-f6d446c90441/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:49:34,634 - [-] - __main__ - INFO - Successfully extracted content with LlamaParse from temp_rfp_b5b30a41-8055-44e2-a363-e1c3d6868106.pdf
+2025-04-03 14:49:35,875 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:49:36,116 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:49:36,227 - [-] - __main__ - INFO - Attempting to parse temp_response_720f167d-36cc-4e9a-9786-b47c6515bc4b.pdf with LlamaParse
+2025-04-03 14:49:36,237 - [-] - __main__ - WARNING - LlamaParse returned empty results for temp_response_720f167d-36cc-4e9a-9786-b47c6515bc4b.pdf, trying fallback method
+2025-04-03 14:49:36,237 - [-] - __main__ - WARNING - LlamaParse failed: No content extracted by LlamaParse. Trying fallback method...
+2025-04-03 14:49:36,756 - [-] - __main__ - INFO - Successfully extracted content with PyPDF2 from temp_response_720f167d-36cc-4e9a-9786-b47c6515bc4b.pdf
+2025-04-03 14:49:38,582 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:49:39,702 - [-] - __main__ - INFO - Created new FAISS index for collection: response_parsed
+2025-04-03 14:49:55,616 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:49:56,285 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:50:02,334 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:50:14,492 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:51:27,639 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:51:28,528 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:51:29,698 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:51:29,713 - [-] - __main__ - ERROR - Error during chat execution: module 'streamlit' has no attribute 'experimental_rerun'
+2025-04-03 14:51:37,755 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:51:39,054 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:51:40,224 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:54:49,993 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 14:54:50,026 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 14:54:50,031 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 14:55:17,751 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 14:55:17,751 - [-] - __main__ - INFO - Attempting to parse temp_rfp_cfda9a69-016e-4acc-be89-9550eb3a19d3.pdf with LlamaParse
+2025-04-03 14:55:20,246 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 14:55:21,578 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b914de8d-e42d-442a-b5c5-6aae4ae00419 "HTTP/1.1 200 OK"
+2025-04-03 14:55:23,939 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b914de8d-e42d-442a-b5c5-6aae4ae00419 "HTTP/1.1 200 OK"
+2025-04-03 14:55:24,365 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b914de8d-e42d-442a-b5c5-6aae4ae00419/result/text "HTTP/1.1 200 OK"
+2025-04-03 14:55:24,378 - [-] - __main__ - INFO - Successfully extracted content with LlamaParse from temp_rfp_cfda9a69-016e-4acc-be89-9550eb3a19d3.pdf
+2025-04-03 14:55:25,712 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:55:25,952 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 14:55:26,069 - [-] - __main__ - INFO - Cleared FAISS index for collection: response_parsed
+2025-04-03 14:55:26,071 - [-] - __main__ - INFO - Attempting to parse temp_response_383e20fb-7b1f-43f8-8db1-33b24d2dcd8f.pdf with LlamaParse
+2025-04-03 14:55:26,072 - [-] - __main__ - WARNING - LlamaParse returned empty results for temp_response_383e20fb-7b1f-43f8-8db1-33b24d2dcd8f.pdf, trying fallback method
+2025-04-03 14:55:26,085 - [-] - __main__ - WARNING - LlamaParse failed: No content extracted by LlamaParse. Trying fallback method...
+2025-04-03 14:55:26,618 - [-] - __main__ - INFO - Successfully extracted content with PyPDF2 from temp_response_383e20fb-7b1f-43f8-8db1-33b24d2dcd8f.pdf
+2025-04-03 14:55:28,260 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:55:29,512 - [-] - __main__ - INFO - Created new FAISS index for collection: response_parsed
+2025-04-03 14:55:41,242 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:55:41,700 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 14:55:46,930 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 14:56:00,352 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:07:28,201 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 15:07:28,233 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 15:07:28,240 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 15:07:58,334 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 15:07:58,334 - [-] - __main__ - INFO - Attempting to parse temp_rfp_3c9ecc85-9cf1-4edf-920f-b5419143e260.pdf with LlamaParse
+2025-04-03 15:08:09,749 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 15:08:11,187 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/3c60994d-93cc-4ae4-8d63-c253dac7702d "HTTP/1.1 200 OK"
+2025-04-03 15:08:13,513 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/3c60994d-93cc-4ae4-8d63-c253dac7702d "HTTP/1.1 200 OK"
+2025-04-03 15:08:13,942 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/3c60994d-93cc-4ae4-8d63-c253dac7702d/result/text "HTTP/1.1 200 OK"
+2025-04-03 15:08:13,957 - [-] - __main__ - INFO - Successfully extracted content with LlamaParse from temp_rfp_3c9ecc85-9cf1-4edf-920f-b5419143e260.pdf
+2025-04-03 15:08:15,424 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:08:15,923 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 15:08:16,030 - [-] - __main__ - INFO - Cleared FAISS index for collection: response_parsed
+2025-04-03 15:08:16,031 - [-] - __main__ - INFO - Attempting to parse temp_response_8d29c022-d3df-49df-83bd-163ecfcd447e.pdf with LlamaParse
+2025-04-03 15:08:16,049 - [-] - __main__ - WARNING - LlamaParse returned empty results for temp_response_8d29c022-d3df-49df-83bd-163ecfcd447e.pdf, trying fallback method
+2025-04-03 15:08:16,050 - [-] - __main__ - WARNING - LlamaParse failed: No content extracted by LlamaParse. Trying fallback method...
+2025-04-03 15:08:16,572 - [-] - __main__ - INFO - Successfully extracted content with PyPDF2 from temp_response_8d29c022-d3df-49df-83bd-163ecfcd447e.pdf
+2025-04-03 15:08:18,055 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:08:19,289 - [-] - __main__ - INFO - Created new FAISS index for collection: response_parsed
+2025-04-03 15:08:40,931 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:08:41,688 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:08:55,285 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:09:15,167 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:11:16,451 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:11:17,481 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:11:19,263 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:11:19,271 - [-] - __main__ - ERROR - Error during chat execution: module 'streamlit' has no attribute 'experimental_rerun'
+2025-04-03 15:14:48,286 - [-] - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-03 15:14:48,312 - [-] - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-03 15:14:48,315 - [-] - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-03 15:15:42,318 - [-] - __main__ - INFO - Cleared FAISS index for collection: rfp_parsed
+2025-04-03 15:15:42,318 - [-] - __main__ - INFO - Attempting to parse temp_rfp_9143906d-a8c9-4694-b921-3797fb190d16.pdf with LlamaParse
+2025-04-03 15:15:46,059 - [-] - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-04-03 15:15:47,406 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/bf80cb18-d613-4e16-8b36-b7327cf9fc4e "HTTP/1.1 200 OK"
+2025-04-03 15:15:49,926 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/bf80cb18-d613-4e16-8b36-b7327cf9fc4e "HTTP/1.1 200 OK"
+2025-04-03 15:15:50,353 - [-] - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/bf80cb18-d613-4e16-8b36-b7327cf9fc4e/result/text "HTTP/1.1 200 OK"
+2025-04-03 15:15:50,606 - [-] - __main__ - INFO - Successfully extracted content with LlamaParse from temp_rfp_9143906d-a8c9-4694-b921-3797fb190d16.pdf
+2025-04-03 15:15:53,846 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:15:54,300 - [-] - __main__ - INFO - Created new FAISS index for collection: rfp_parsed
+2025-04-03 15:15:54,414 - [-] - __main__ - INFO - Cleared FAISS index for collection: response_parsed
+2025-04-03 15:15:54,414 - [-] - __main__ - INFO - Attempting to parse temp_response_b9069838-312e-4a68-aa56-7029ee5bcde7.pdf with LlamaParse
+2025-04-03 15:15:54,433 - [-] - __main__ - WARNING - LlamaParse returned empty results for temp_response_b9069838-312e-4a68-aa56-7029ee5bcde7.pdf, trying fallback method
+2025-04-03 15:15:54,433 - [-] - __main__ - WARNING - LlamaParse failed: No content extracted by LlamaParse. Trying fallback method...
+2025-04-03 15:15:54,953 - [-] - __main__ - INFO - Successfully extracted content with PyPDF2 from temp_response_b9069838-312e-4a68-aa56-7029ee5bcde7.pdf
+2025-04-03 15:15:56,300 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:15:57,420 - [-] - __main__ - INFO - Created new FAISS index for collection: response_parsed
+2025-04-03 15:16:10,959 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:16:11,823 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:16:31,306 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:17:00,307 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:21:26,461 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:21:27,281 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:21:28,443 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:01,383 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:22:02,534 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:22:03,954 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:04,857 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:22:06,409 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 15:22:39,875 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:22:40,760 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-03 15:22:43,205 - [-] - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
